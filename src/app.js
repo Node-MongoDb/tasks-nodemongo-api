@@ -7,7 +7,7 @@ import taskRoutes from "./routes/tasks.routes";
 const app = express();
 
 // Settings
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 3100);
 
 // const corsOptions = {origin: "http://localhost:3000"};
 const corsOptions = {};
